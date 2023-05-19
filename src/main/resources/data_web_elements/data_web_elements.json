@@ -1,0 +1,26 @@
+{
+  "main_page": {
+    "amazon_tittle_element": "nav-logo-sprites",
+    "nav_container": "//div[@id='nav-xshop-container']//a[text()='%s']",
+    "dismiss_module_window": "//*[@data-action-type='DISMISS']"
+  },
+  "gifts_cards_filter": {
+    "gifts_cards_item": "//span[text()='%s']//parent::*//following-sibling::ul//span[text()='%s']",
+    "card_item": "(//img[@alt='Amazon.com Print at Home Gift Card'])[3]",
+    "gifts_left_panel": "s-refinements"
+  },
+  "product_page": {
+    "tittle": "//span[@id='gc-asin-title']",
+    "gift_design_card": "gc-mini-picker-design-swatch-image-1",
+    "amount_card": "(//div[@id='gc-amount-mini-picker-wrapper']//*[contains(text(),'%s')])[1]",
+    "add_card": "submit.gc-add-to-cart",
+    "added_to_cart_notification": "Added to Cart",
+    "card_price_button": "nav-cart-count"
+  },
+  "shopping_cart_page": {
+    "shopping_car_tittle": "//h1[contains(text(),'Shopping Cart')]",
+    "sub_total": "//span[@id='sc-subtotal-label-activecart']",
+    "sub_amount_total": "//span[@id='sc-subtotal-amount-activecart']",
+    "delete_card_link": "//*[@value='Delete']"
+  }
+}

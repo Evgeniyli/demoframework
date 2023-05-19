@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="smoke" verbose="1" configfailurepolicy="continue" parallel="tests" thread-count="1">
+
+    <test name="Tests on Chrome - Thread 1" verbose="2">
+        <parameter name="userId" value="1"/>
+        <classes>
+            <class name="com.ui.automation.implementation.smoke_test.GiftCardsTest"/>
+        </classes>
+    </test>
+</suite>
