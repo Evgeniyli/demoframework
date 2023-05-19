@@ -5,7 +5,7 @@
     <test name="Tests on Chrome - Thread 1" verbose="2">
         <parameter name="userId" value="1"/>
         <classes>
-            <class name="com.ui.automation.implementation.smoke_test.GiftCardsTest"/>
+            <class name="com.ui.automation.implementation.smoke_test.gift_cards.GiftCardsTest"/>
         </classes>
     </test>
 </suite>

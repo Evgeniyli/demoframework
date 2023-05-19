@@ -1,7 +1,7 @@
 
-1) Execute by local machine how to run the test suite
+1) Execute by local machine, how to run the test suite
 
-- Clone project to downloads folder from GitLab
+- Clone project to downloads folder from GitHub
 
 - Install plugins:
 Lombok plugin
@@ -40,4 +40,4 @@ add job in Jenkins with parameters:
 pipeline script in framework: smoke.groovy, path is : test_framework\pipeline\scripts\smoke.groovy
 Execute job
 
-3) Execute suit by maven mvn clean compile test -DxmlFileName=src/test/resources/suites/temp_suites/${DxmlFileName} -Pdev2frontend -Pchrome -Plocal_windows
+3) Execute suit by maven mvn clean compile test -DxmlFileName=src/test/resources/suites/temp_suites/${DxmlFileName} -Pamazon -Pchrome -Plocal_windows
